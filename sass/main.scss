@@ -1,7 +1,9 @@
-h1 {
-   color: red;
 
-   span {
-      color: blue;
-   }
-}
+$primary: #806a41;
+$dark: #1a1a1a;
+$border-color: #eee;
+
+
+//Bootstrap
+@import "../bootstrap/scss/bootstrap.scss"
+
