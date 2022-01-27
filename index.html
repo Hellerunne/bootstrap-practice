@@ -417,12 +417,12 @@
 
          <section class="row latest-news">
             <div class="col-lg mb-3 mb-lg-0">
-               <div class="featured-post">
-                  <div id="featuredPostCarousel" class="carousel slide" data-bs-interval="false">
-                     <div class="carousel-inner">
+               <div class="featured-post h-100">
+                  <div id="featuredPostCarousel" class="carousel slide h-100" data-bs-interval="false">
+                     <div class="carousel-inner h-100">
 
-                        <div class="carousel-item active">
-                           <div class="featured-post-inner">
+                        <div class="carousel-item active h-100">
+                           <div class="featured-post-inner h-100 d-flex align-items-end featured-post-1">
                               <div class="featured-post-info">
                                  <h4>Lorem ipsum dolor sit.</h4>
                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, maxime?</p>
@@ -434,8 +434,8 @@
                            </div>
                         </div>
 
-                        <div class="carousel-item">
-                           <div class="featured-post-inner">
+                        <div class="carousel-item h-100">
+                           <div class="featured-post-inner h-100 d-flex align-items-end featured-post-2">
                               <div class="featured-post-info">
                                  <h4>Lorem r sit.</h4>
                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cum dolorum officia excepturi magni quasi quia repellat possimus suscipit quisquam.</p>
@@ -448,11 +448,21 @@
                         </div>
 
                      </div>
+
+                     <a href="#featuredPostCarousel" class="carousel-control-prev" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="sr-only">Anterior</span>
+                     </a>
+                     <a href="#featuredPostCarousel" class="carousel-control-next" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Siguiente</span>
+                     </a>
+
                   </div>
                </div>
             </div>
 
-            <div class="col-lg">
+            <div class="col-lg d-none d-sm-block">
                <div class="row post mb-3">
                   <div class="col-sm-4">
                      <img class="img-fluid" src="img/post2.jpg" alt="">
