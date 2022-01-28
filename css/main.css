@@ -10774,4 +10774,26 @@ p:last-child {
   margin-bottom: 0;
 }
 
+.products-masonry .card {
+  text-align: center;
+  border: none;
+  margin-bottom: 40px;
+}
+.products-masonry .card h5, .products-masonry .card .h5 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.products-masonry .card h5::before, .products-masonry .card .h5::before {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 2px;
+  background: #806a41;
+  margin: 15px auto 30px;
+}
+.products-masonry .card p {
+  color: #806a41;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=main.css.map */

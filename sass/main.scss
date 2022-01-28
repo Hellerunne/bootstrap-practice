@@ -7,6 +7,8 @@ $border-color: #eee;
 //Bootstrap
 @import "../bootstrap/scss/bootstrap.scss";
 
+// ---------------------------------------------
+
 body {
    font-family: Poppins, sans-serif;
    font-weight: 300;
@@ -40,3 +42,35 @@ p {
       margin-bottom: 0;
    }
 }
+
+// ---------------------------------------------
+
+.products-masonry {
+   .card {
+      text-align: center;
+      border: none;
+      margin-bottom: 40px;
+
+      h5 {
+         text-transform: uppercase;
+         font-weight: 300;
+
+         &::before {
+            content: "";
+            display: block;
+            width: 70px;
+            height: 2px;
+            background: $primary;
+            margin: 15px auto 30px;
+         }
+      }
+
+      p {
+         color: $primary;
+         font-weight: 500;
+      }
+   }
+}
+
+// ---------------------------------------------
+
