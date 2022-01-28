@@ -10746,5 +10746,32 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+}
+
+.website-title {
+  font-family: "Shadows into light", sans-serif;
+  font-size: 50px;
+}
+
+a {
+  color: #6c757d;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #806a41;
+}
+.nav-link:active {
+  color: #806a41;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
 
 /*# sourceMappingURL=main.css.map */

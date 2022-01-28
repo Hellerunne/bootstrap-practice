@@ -5,5 +5,38 @@ $border-color: #eee;
 
 
 //Bootstrap
-@import "../bootstrap/scss/bootstrap.scss"
+@import "../bootstrap/scss/bootstrap.scss";
 
+body {
+   font-family: Poppins, sans-serif;
+   font-weight: 300;
+}
+
+.website-title {
+   font-family: "Shadows into light", sans-serif;
+   font-size: 50px;
+}
+
+a {
+   color: $secondary;
+   &:hover {
+      text-decoration: none;
+   }
+}
+
+.nav-link {
+
+   &:hover {
+      color: $primary;
+   }
+
+   &:active {
+      color: $primary;
+   }
+}
+
+p {
+   &:last-child {
+      margin-bottom: 0;
+   }
+}
